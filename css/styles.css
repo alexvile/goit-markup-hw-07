@@ -353,17 +353,17 @@ p {
 }
 /* Features section */
 
-.features-list {
+.features {
   display: flex;
 }
-.features-card {
+.features__card {
   width: calc((100%-30px * 3) / 4);
   margin-right: 30px;
 }
-.features-card:nth-child(4n) {
+.features__card:nth-child(4n) {
   margin-right: 0;
 }
-.features-thumb {
+.features__thumb {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -373,14 +373,14 @@ p {
   margin-bottom: 30px;
   background-color: #f5f4fa;
 }
-.features-subtitle {
+.features__subtitle {
   margin-bottom: 10px;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--title-text-color);
 }
-.features-desc {
+.features__desc {
   font-size: 14px;
   line-height: 1.71;
 }
