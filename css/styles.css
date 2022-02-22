@@ -384,11 +384,11 @@ p {
   font-size: 14px;
   line-height: 1.71;
 }
-/* What we do section */
-.what-we-do-section {
+/* Services section */
+.services {
   padding-top: 0;
 }
-.title {
+.services__title {
   margin-bottom: 50px;
   font-size: 36px;
   line-height: 1.17;
@@ -396,21 +396,21 @@ p {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
-.what-we-do-list {
+.services__list {
   display: flex;
 }
-.what-we-do-item {
+.service {
   position: relative;
   text-align: center;
   z-index: 1;
 }
-.what-we-do-item:not(:nth-child(3n)) {
+.service:not(:nth-child(3n)) {
   margin-right: 30px;
 }
-.what-we-do-img {
+.service__img {
   display: block;
 }
-.what-we-do-label {
+.service__title {
   position: absolute;
   left: 0;
   bottom: 0;
