@@ -4,6 +4,7 @@
 %list {
   list-style-type: none;
 }
+
 %header-links {
   position: relative;
   font-size: 14px;
@@ -11,7 +12,38 @@
   letter-spacing: 0.02em;
   font-weight: 500;
   transition: color 250ms $main-animation;
+
+  &:hover {
+    color: $accent-color;
+  }
 }
-%header-links_hover-focus {
-  color: $accent-color;
+
+// buttons
+
+%btn {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+%big-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  min-width: 200px;
+  min-height: 50px;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: $primary-white-color;
+  background-color: $accent-color;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms $main-animation;
+
+  &:hover,
+  &:focus {
+    background-color: $button-main-color;
+  }
 }

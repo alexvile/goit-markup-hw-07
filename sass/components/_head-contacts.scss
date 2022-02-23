@@ -19,11 +19,6 @@
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--primary-text-color);
-
-  &:hover,
-  &:focus {
-    @extend %header-links_hover-focus;
-  }
 }
 
 .head-contacts__icon {

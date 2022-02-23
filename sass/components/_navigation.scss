@@ -16,11 +16,6 @@
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--title-text-color);
-
-  &:hover,
-  &:focus {
-    @extend %header-links_hover-focus;
-  }
 }
 .nav__link--current {
   color: $accent-color;
