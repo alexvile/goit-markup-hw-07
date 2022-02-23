@@ -71,10 +71,6 @@ p {
   font-weight: 400;
   color: var(--title-text-color);
 }
-.logo-footer {
-  color: var(--primary-white-color);
-  margin-bottom: 20px;
-}
 .logo__first-word {
   color: var(--accent-color);
 }
@@ -517,32 +513,38 @@ p {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.footer-container {
+.footer__container {
   display: flex;
   align-items: baseline;
 }
-.footer-box:first-child {
+.footer__logo {
+  color: var(--primary-white-color);
+  margin-bottom: 20px;
+}
+.footer__box:first-child {
   margin-right: 70px;
 }
-.footer-box:nth-child(2) {
+.footer__box:nth-child(2) {
   margin-right: 93px;
 }
-.contacts-f {
+/* footer contacts */
+.foot-contacts {
+  font-style: normal;
+}
+.foot-contacts__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+.foot-contacts__link {
   font-size: 14px;
   line-height: 1.71;
   color: var(--semitransparent-white-color);
 }
-.address-link {
+.foot-contacts__link--light-color {
   color: var(--primary-white-color);
 }
-.footer-address {
-  font-style: normal;
-}
-.footer-item:not(:last-child) {
-  margin-bottom: 9px;
-}
-.footer-social-call,
-.footer-sign-up-call {
+/* footer socials */
+.footer-socials__call,
+.signup__call {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
@@ -550,13 +552,13 @@ p {
   text-transform: uppercase;
   color: var(--primary-white-color);
 }
-.footer-social-list {
+.footer-socials__list {
   display: flex;
 }
-.footer-social-item:not(:last-child) {
+.footer-socials__item:not(:last-child) {
   margin-right: 10px;
 }
-.footer-social-link {
+.footer-socials__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -567,15 +569,15 @@ p {
   background-color: var(--footer-icon-background-color);
   transition: background-color 250ms var(--main-animation);
 }
-.footer-social-link:hover,
-.footer-social-link:focus {
+.footer-socials__link:hover,
+.footer-socials__link:focus {
   background-color: var(--accent-color);
 }
-.footer-social-icon {
+.footer-socials__icon {
   fill: currentColor;
 }
-/* Sign-up section */
-.sign-up-input {
+/* Footer sign-up section */
+.signup__input {
   margin-right: 15px;
   width: 358px;
   padding: 15px 16px;
@@ -584,10 +586,10 @@ p {
   color: var(--primary-white-color);
   background-color: var(--bg-darl-color);
 }
-.sign-up-input::placeholder {
+.signup__input::placeholder {
   color: var(--semitransparent-white-color);
 }
-.sign-up-icon {
+.signup__icon {
   margin-left: 10px;
 }
 /* ------------------Portfolio PAGE------------------*/
