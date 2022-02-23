@@ -15,7 +15,7 @@
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-  color: var(--title-text-color);
+  color: $title-text-color;
 }
 .nav__link--current {
   color: $accent-color;
