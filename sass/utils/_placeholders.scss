@@ -1,0 +1,25 @@
+%link {
+  text-decoration: none;
+}
+%list {
+  list-style-type: none;
+}
+%header-links {
+  position: relative;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  transition: color 250ms $main-animation;
+}
+%header-links_hover-focus {
+  color: $accent-color;
+}
+
+// }
+// .nav__link:hover,
+// .nav__link:focus,
+// .head-contacts__link:hover,
+// .head-contacts__link:focus {
+//
+// }

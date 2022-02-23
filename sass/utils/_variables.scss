@@ -16,3 +16,39 @@ $section-background-color: rgba(47, 48, 58, 0.8);
 $backdrop-color: rgba(0, 0, 0, 0.5);
 // animations
 $main-animation: cubic-bezier(0.4, 0, 0.2, 1);
+// vremenno obschie stili
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.section--top-padding-no {
+  padding-top: 0;
+}

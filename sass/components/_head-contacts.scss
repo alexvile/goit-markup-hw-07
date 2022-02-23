@@ -1,0 +1,20 @@
+.head-contacts {
+  display: flex;
+  margin-left: auto;
+}
+.head-contacts__item:not(:last-child) {
+  margin-right: 50px;
+}
+.head-contacts__link {
+  @extend %header-links;
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: var(--primary-text-color);
+}
+
+.head-contacts__icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
