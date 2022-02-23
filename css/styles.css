@@ -595,15 +595,15 @@ p {
 /* ------------------Portfolio PAGE------------------*/
 
 /* Buttons */
-.buttons {
+.port-buttons {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
-.portf-button:not(:last-child) {
+.port-button:not(:last-child) {
   margin-right: 8px;
 }
-.portf-button-link {
+.port-button__link {
   padding: 6px 22px;
   font-family: inherit;
   font-weight: 500;
@@ -615,8 +615,8 @@ p {
   transition: box-shadow 250ms var(--main-animation), color 250ms var(--main-animation),
     background-color 250ms var(--main-animation);
 }
-.portf-button-link:focus,
-.portf-button-link:hover {
+.port-button__link:focus,
+.port-button__link:hover {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -624,34 +624,34 @@ p {
 }
 
 /* Cards */
-.portf-cards {
+.port-cards {
   display: flex;
   flex-wrap: wrap;
   margin: -15px;
 }
-.portf-card {
+.port-card {
   width: calc(100% - 60px) / 3;
   margin: 15px;
 }
-.portf-card:hover,
-.portf-card:focus {
+.port-card:hover,
+.port-card:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.card:hover .card-overlay {
+.port-card__link:hover .port-card__overlay {
   transform: translateY(0);
 }
-.card:focus .card-overlay {
+.port-card__link:focus .port-card__overlay {
   transform: translateY(0);
 }
-.card-thumb {
+.port-card__thumb {
   position: relative;
   overflow: hidden;
 }
-.card-img {
+.port-card__img {
   display: block;
 }
-.card-overlay {
+.port-card__overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -661,25 +661,25 @@ p {
   transform: translateY(100%);
   transition: transform 250ms var(--main-animation);
 }
-.card-label {
+.port-card__label {
   padding: 24px 63px;
   font-size: 18px;
   line-height: 1.56;
   color: var(--primary-white-color);
 }
-.card-text {
+.port-card__text {
   padding: 20px 24px;
   border-right: 1px solid #eee;
   border-left: 1px solid #eee;
   border-bottom: 1px solid #eee;
 }
-.card-title {
+.port-card__title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
 }
-.card-desc {
+.port-card__desc {
   font-size: 16px;
   line-height: 1.87;
 }
