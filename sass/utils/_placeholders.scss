@@ -47,3 +47,22 @@
     background-color: $button-main-color;
   }
 }
+
+// forms
+
+%contact-form-input {
+  display: block;
+  width: 100%;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  color: $title-text-color;
+  transition: border 250ms $main-animation;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.01em;
+
+  &:focus {
+    border: 1px solid $accent-color;
+    outline: white; /* скрывает outline */
+  }
+}
