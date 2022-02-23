@@ -2,16 +2,28 @@
   display: flex;
   margin-left: auto;
 }
-.head-contacts__item:not(:last-child) {
-  margin-right: 50px;
+
+.head-contacts__item {
+  @extend %list;
+
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
 }
+
 .head-contacts__link {
   @extend %header-links;
+  @extend %link;
   display: flex;
   align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--primary-text-color);
+
+  &:hover,
+  &:focus {
+    @extend %header-links_hover-focus;
+  }
 }
 
 .head-contacts__icon {
