@@ -18,7 +18,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+  color: #757575;
 }
 
 .container {
@@ -41,7 +41,7 @@ body {
   text-decoration: none;
 }
 
-.nav__item, .head-contacts__item {
+.nav__item, .head-contacts__item, .feature {
   list-style-type: none;
 }
 
@@ -423,5 +423,50 @@ body {
           transform: translateY(-50%);
   border: 2px solid #212121;
   border-radius: 2px;
+}
+
+.features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.feature {
+  width: calc((100%-30px * 3) / 4);
+  margin-right: 30px;
+}
+
+.feature:nth-child(4n) {
+  margin-right: 0;
+}
+
+.feature__thumb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+}
+
+.feature__subtitle {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.feature__desc {
+  font-size: 14px;
+  line-height: 1.71;
 }
 /*# sourceMappingURL=main.css.map */
