@@ -53,6 +53,9 @@ body {
 .section--top-padding-no {
   padding-top: 0;
 }
+.section--grey {
+  background-color: $bg-light-color;
+}
 .section__title {
   margin-bottom: 50px;
   font-size: 36px;

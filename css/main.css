@@ -37,6 +37,10 @@ body {
   padding-top: 0;
 }
 
+.section--grey {
+  background-color: #f5f4fa;
+}
+
 .section__title {
   margin-bottom: 50px;
   font-size: 36px;
@@ -50,7 +54,7 @@ body {
   text-decoration: none;
 }
 
-.nav__item, .head-contacts__item, .feature, .service {
+.nav__item, .head-contacts__item, .feature, .service, .member, .member__socials {
   list-style-type: none;
 }
 
@@ -513,5 +517,79 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   background-color: rgba(47, 48, 58, 0.8);
+}
+
+.members {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.member {
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.member:not(:nth-child(4n)) {
+  margin-right: 30px;
+}
+
+.member__about {
+  padding: 30px 32px;
+  background-color: #ffffff;
+}
+
+.member__name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: #212121;
+}
+
+.member__position {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.member__socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 16px;
+}
+
+.member__social:not(:last-child) {
+  margin-right: 10px;
+}
+
+.member__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: #afb1b8;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.member__link:hover, .member__link:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.member__icon-link {
+  fill: currentColor;
 }
 /*# sourceMappingURL=main.css.map */
