@@ -1,55 +1,4 @@
 @charset "UTF-8";
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
-
-body {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-}
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.section--top-padding-no {
-  padding-top: 0;
-}
-
-.section--grey {
-  background-color: #f5f4fa;
-}
-
-.section__title {
-  margin-bottom: 50px;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
-
 .logo, .nav__link, .head-contacts__link, .foot-contacts__link, .port-card__link {
   text-decoration: none;
 }
@@ -125,6 +74,57 @@ body {
   border: 1px solid #2196f3;
   outline: white;
   /* скрывает outline */
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section--top-padding-no {
+  padding-top: 0;
+}
+
+.section--grey {
+  background-color: #f5f4fa;
+}
+
+.section__title {
+  margin-bottom: 50px;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
 .page-header {
