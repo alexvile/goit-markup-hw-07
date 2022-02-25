@@ -1,0 +1,19 @@
+.footer {
+  background-color: $bg-darl-color;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer__container {
+  display: flex;
+  align-items: baseline;
+}
+.footer__logo {
+  color: $primary-white-color;
+  margin-bottom: 20px;
+}
+.footer__box:first-child {
+  margin-right: 70px;
+}
+.footer__box:nth-child(2) {
+  margin-right: 93px;
+}

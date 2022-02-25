@@ -1,0 +1,19 @@
+.foot-contacts {
+  font-style: normal;
+}
+
+.foot-contacts__item {
+  @extend %list;
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
+}
+.foot-contacts__link {
+  @extend %link;
+  font-size: 14px;
+  line-height: 1.71;
+  color: $semitransparent-white-color;
+}
+.foot-contacts__link--light-color {
+  color: $primary-white-color;
+}

@@ -25,7 +25,3 @@
   text-transform: uppercase;
   color: $primary-white-color;
 }
-.button {
-  @extend %btn;
-  @extend %big-button;
-}
