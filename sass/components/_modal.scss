@@ -124,8 +124,6 @@
   color: $primary-text-color;
 }
 .contact-form__checkbox {
-  -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
 
   &:checked ~ .checkbox-icon {
